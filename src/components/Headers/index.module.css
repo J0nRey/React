@@ -1,0 +1,33 @@
+.Header{
+    width: 100%;
+    padding:  1rem 2rem;
+    background: var(--header-background);
+}
+
+.Header h1{
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    background: black;
+    color: white;
+    border-radius: 0.4rem;
+}
+
+.header input[type="search"]{
+    margin: 0 0 0 0;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    background: #f9fafa;
+}
+
+.header .btn.btn-link {
+    color: var(--bs-primary);
+    text-decoration: none;
+}
+
+.header .btn.btn-primary {
+    background: var(--bs-primary);
+    color: var(--bs-primary-color);
+}
+

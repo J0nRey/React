@@ -1,0 +1,13 @@
+.AppButton a {
+    text-decoration: none;
+}
+
+.AppButton button {
+    text-decoration: none;
+    color: var( --header-background);
+    background: var(--bs-primary);
+}
+
+.AppButton button :hover {
+    color: white;
+}
